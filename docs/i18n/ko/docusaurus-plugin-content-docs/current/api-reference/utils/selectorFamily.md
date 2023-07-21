@@ -5,7 +5,7 @@ sidebar_label: selectorFamily()
 
 읽기 전용 `RecoilValueReadOnly` 또는 수정 가능한 `RecoilState` selector를 반환하는 함수를 반환합니다.
 
-`selectorFamily`는 [`selector`](/docs/api-reference/core/selector)와 유사한 강력한 패턴입니다. 다만, `get`, `set`, `selector`의 콜백을 매개변수로 전달할 수 있다는 점이 다릅니다. `selectorFamily()` 유틸리티는 사용자 정의 매개변수로 호출 할 수 있는 함수를 반환하고 seletor를 반환합니다. 각 고유 매개 변수값은 메모이징된 동일한 selector 인스턴스를 반환합니다.
+`selectorFamily`는 [`selector`](/docs/api-reference/core/selector)와 유사한 강력한 패턴입니다. 다만, `get`, `set`, `selector`의 콜백을 매개변수로 전달할 수 있다는 점이 다릅니다. `selectorFamily()` 유틸리티는 사용자 정의 매개변수로 호출 할 수 있는 함수를 반환하고 selector 반환합니다. 각 고유 매개 변수값은 메모이징된 동일한 selector 인스턴스를 반환합니다.
 
 ---
 
